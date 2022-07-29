@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{d605234e-0731-44be-ac74-c9ed63d20c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cleaners">
+      <UniqueIdentifier>{77dbef12-64aa-4878-a50a-5ddf8041e304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spoof">
+      <UniqueIdentifier>{a78e33a0-8dd1-49b4-a299-eb6055aaaf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{341131ed-8bdb-4d9f-b555-8c335373b2e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nigget.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="udcrypt.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofnetwork.h">
+      <Filter>spoof</Filter>
+    </ClInclude>
+    <ClInclude Include="COD.h">
+      <Filter>cleaners</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite.h">
+      <Filter>cleaners</Filter>
+    </ClInclude>
+    <ClInclude Include="EFT.h">
+      <Filter>cleaners</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
